@@ -10,6 +10,7 @@
 		4932555E2AE836A80015EBFA /* XCAFootballDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = 4932555D2AE836A80015EBFA /* XCAFootballDataClient */; };
 		493255612AE837530015EBFA /* StandingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493255602AE837530015EBFA /* StandingTableView.swift */; };
 		493255642AE83D2A0015EBFA /* StandingTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493255632AE83D2A0015EBFA /* StandingTableObservable.swift */; };
+		493255662AE83DC80015EBFA /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493255652AE83DC80015EBFA /* FetchPhase.swift */; };
 		49C38B592AE8328F000A9E87 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 49C38B582AE8328F000A9E87 /* RealityKitContent */; };
 		49C38B5B2AE8328F000A9E87 /* FootballAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C38B5A2AE8328F000A9E87 /* FootballAppApp.swift */; };
 		49C38B5D2AE8328F000A9E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C38B5C2AE8328F000A9E87 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		493255602AE837530015EBFA /* StandingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTableView.swift; sourceTree = "<group>"; };
 		493255632AE83D2A0015EBFA /* StandingTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTableObservable.swift; sourceTree = "<group>"; };
+		493255652AE83DC80015EBFA /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
 		49C38B532AE8328F000A9E87 /* FootballApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C38B572AE8328F000A9E87 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		49C38B5A2AE8328F000A9E87 /* FootballAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballAppApp.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				49C38B5E2AE83291000A9E87 /* Assets.xcassets */,
 				49C38B632AE83291000A9E87 /* Info.plist */,
 				49C38B602AE83291000A9E87 /* Preview Content */,
+				493255652AE83DC80015EBFA /* FetchPhase.swift */,
 			);
 			path = FootballApp;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493255662AE83DC80015EBFA /* FetchPhase.swift in Sources */,
 				493255612AE837530015EBFA /* StandingTableView.swift in Sources */,
 				493255642AE83D2A0015EBFA /* StandingTableObservable.swift in Sources */,
 				49C38B5D2AE8328F000A9E87 /* ContentView.swift in Sources */,

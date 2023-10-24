@@ -16,6 +16,7 @@ struct ContentView: View {
                 .padding(.bottom, 50)
 
             Text("Hello, world!")
+                .navigationTitle("Titolo")
         }
         .padding()
     }
